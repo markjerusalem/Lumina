@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumina</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #367588;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #004040;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main section {
+      text-align: center;
+      padding: 30px;
+    }
+
+    .content-row {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .about-section,
+    .services-section,
+    .solution-section {
+      width: 45%; /* Adjust for spacing */
+      margin-bottom: 25px;
+      padding: 20px;
+      background-color: #9dc8e3;
+      color: #000;
+    }
+
+    footer {
+      background-color: #367588;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      .about-section,
+      .services-section,
+      .solution-section {
+        width: 100%; /* Adjust for smaller screens */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Lumina </h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="educational_resources.html">Educational Resources</a></li>
+      <li><a href="chat_service.html">Chat Service</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Lumina</h2>
+      <h4>Catered to your world of mental health and support!</h4>
+    </section>
+
+    <div class="content-row">
+      <article class="about-section">
+        <h4>Our Mission</h4>
+        <p> Lumina aims to tackle the issue of mental health within the community through a unique feature only found on
+          this site: a chat service filled with useful resources and connections. Lumina ensures a supportive environment
+          for individuals with mental health issues. Our mission is to allow others to connect and support one another
+          regardless of where they're physical location. Connection is the key solution to solving mental health issues.
+        </p>
+      </article>
+      <article class="services-section">
+        <h4>Our Services</h4>
+        <p> At Lumina, we offer users the ability to connect with an AI chatbot to help with any of your mental health and
+          wellness needs. Our chatbot is designed to be a safe and supportive space for individuals to share any of your
+          experiences, feelings, and needs. It is available 24/7 for your convenience. Additionally, we also offer a variety
+          of different educational resources to even further support any of your needs. </p>
+      </article>
+      <article class="solution-section">
+        <h4>Our Solution</h4>
+        <p>We aim to provide a safe space and additional support for users to connect with when struggling with their mental
+          health. </p>
+      </article>
+    </div>
+  </main>
+  <script src="script.js"></script>
+  <footer>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
